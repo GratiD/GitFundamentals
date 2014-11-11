@@ -1,0 +1,6 @@
+(function(w) {
+	function sayMyName(name) {
+		alert(name);
+	}
+	window.sayMyName = sayMyName;
+})(window)
